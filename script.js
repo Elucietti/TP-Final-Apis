@@ -27,7 +27,7 @@ async function mostrarUno(id){
         const datos = await resultado.json();
         console.log(datos);  
       
-        let colaborador =document.getElementById("empleados");        
+        let colaborador =document.getElementById("colaboradores");        
         colaborador.innerHTML="";
 
         let nombre = document.createElement("th");
@@ -41,15 +41,10 @@ async function mostrarUno(id){
 
         let imagen = document.createElement("th");
         imagen.innerHTML=`<img src="${datos.foto}"></img>`
-
-        
-
         colaborador.appendChild(nombre);
         colaborador.appendChild(area);
         colaborador.appendChild(direccion);
-        colaborador.appendChild(imagen);
-        
-    
+        colaborador.appendChild(imagen);    
 }
 
 async function modificarDatos(){

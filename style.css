@@ -1,6 +1,15 @@
+body{
+   background-color:rgb(212, 209, 209);
+   font-family:'Times New Roman', Times, serif;
+}
 img{
    width: 120px; ; 
 }
 #oculto{
-   background-color: blueviolet;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+footer{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: dimgray;
 }
